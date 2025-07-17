@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import Card from "@/components/Card";
 
 const Landing: React.FC = () => {
@@ -5,6 +6,7 @@ const Landing: React.FC = () => {
     <div>
       <h1 className="text-xl font-extralight">Landing</h1>
       <Card />
+      <Button title="small Button" styles="text-sm rounded-sm" />
     </div>
   );
 };
